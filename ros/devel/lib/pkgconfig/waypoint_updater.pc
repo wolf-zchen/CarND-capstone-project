@@ -1,0 +1,8 @@
+prefix=/home/zchen61/carnd-capstone-test/ros/devel
+
+Name: waypoint_updater
+Description: Description of waypoint_updater
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/zchen61/carnd-capstone-test/ros/devel/lib 
+Requires: 
