@@ -3,7 +3,9 @@
 
 ## Final Project: System Integration
 
-![image](\imgs_vedios_writeup\carla_udacity.png)
+![image](imgs_vedios_writeup\carla_udacity.png)
+
+
 
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. As a team, we built ROS nodes to implement core functionality of the autonomous vehicle system, including traffic light detection, control, and waypoint following. The code will be tested on Carla (Udacity’s Self Driving shown in the above image) to autonomously drive it around a test track.
 
@@ -16,6 +18,24 @@ This is the project repo for the final project of the Udacity Self-Driving Car N
 **Kai Liu**: leonrain.liu@gmail.com
 
 **Zhelin Chen**: zhelinchen91@gmail.com   
+
+
+
+### Rubric Points:
+
+In the simulation, the car was able to:
+
+* Smoothly follows waypoints in the simulator.
+* Reach a target speed of 24 mph
+* Stops at traffic lights when needed and park close tot he stop line
+
+A video showing the results can be found here [simulation video](https://youtu.be/BvKgwUBb6Cc)
+
+
+
+### Traffic Light Classifier
+
+We have two traffic light classifier, one built for simulation test, one for real world test. In ` tl_classifier.py` `line21-22`. Currently the simulation model is selected, for real world test, need to change the code and re-compile.
 
 
 
@@ -33,6 +53,7 @@ This is the project repo for the final project of the Udacity Self-Driving Car N
   * [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu) if you have Ubuntu 16.04.
   * [ROS Indigo](http://wiki.ros.org/indigo/Installation/Ubuntu) if you have Ubuntu 14.04.
 * [Dataspeed DBW](https://bitbucket.org/DataspeedInc/dbw_mkz_ros)
+
   * Use this option to install the SDK on a workstation that already has ROS installed: [One Line SDK Install (binary)](https://bitbucket.org/DataspeedInc/dbw_mkz_ros/src/81e63fcc335d7b64139d7482017d6a97b405e250/ROS_SETUP.md?fileviewer=file-view-default)
 * Download the [Udacity Simulator](https://github.com/udacity/CarND-Capstone/releases).
 
